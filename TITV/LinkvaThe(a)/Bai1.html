@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link và thẻ a</title>
+</head>
+<body>
+    <!-- Khi ấn vào hiển thị trong trang web -->
+    <p>Movie Reviews:
+        <ul>
+            <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-1.jpg">Ảnh 1</a></li>
+            <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-2.jpg">Ảnh 2</a></li>
+            <li><a href="https://www.phucanh.vn/media/news/1008_StockSnapio.jpg">Ảnh 3</a</li>
+        </ul>
+    </p>
+    <!-- Khi ấn vào hiển thị sang 1 trang khác  -->
+    <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-1.jpg" target = "_blank">Ảnh 1</a></li>
+    <!-- Mở tài liệu trong khung cha của khung hiện tại -->
+    <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-1.jpg" target = "_parent">Ảnh 1</a></li>
+    <!-- Mở tài liệu trong khung hiện tại -->
+    <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-1.jpg" target = "_self">Ảnh 1</a></li>
+    <!-- Mở tài liệu trong tab hiện tại -->
+    <li><a href="https://www.phucanh.vn/media/news/2608_trang-web-tai-hinh-nen-dep-ban-nen-biet-1.jpg" target = "_top">Ảnh 1</a></li>
+
+    <!-- Khi bấm vào nó sẽ trỏ vào nơi chỉ định  -->
+    <pre>
+    <h1 id = "top">Film-Making Terms</h1>
+    <a href="#arc_short">Arc Shot</a>
+    <a href="#interlude">Interlude</a>
+    <a href="#prologue">Prologue</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <h2 id = "arc_shot">ArcShot</h2>
+    <p>A shot .....</p>
+    <h2 id = "interlude">Interlude</h2>
+    <p>A brief, intervening ....</p>
+    <h2 id = "prologue">Prologue</h2>
+    <p>a speech, preface,.....</p>
+    <p><a href="#top">Top</a></p>
+    </pre>
+    <!-- Gửi email -->
+    <a href="mailto:tranquochoan349@gmail.com">liên hệ</a>
+    <!-- Luân chuyển giữa các thư mục. Ví dụ ở trong phần bài tập 1 -->
+    <!-- 
+        Có 5 trường hơp: 
+        + Trường hợp 1: Chung thư mục thì cứ luân chuyển qua lại 
+        -- Trường hợp 2: là đang ở thư mục cha vào thư mục con
+        + Trường hợp 2: Thư mục cha và con thì thêm tên thư mục cha vào (music/listings.html)  mucsic là thư mục cha còn listings là thư mục con
+        -- Trường hợp 3: là đang ở thư mục ông vào thư mục cháu
+        + Trường hợp 3: Thư mục ông cha và con thì thêm tên thư mục ông vào (movies/dvd/reviews.html)
+        -- Trường hợp 4: là đang ở thư mục con quay lại thư mục cha 
+        + Trường hợp 4: Lùi về 1 thư mục (cha) sử dụng .. (../index.html)
+        -- Trường hợp 5: là đang ở thư mục cháu muốn quay lại thư mục ông
+        + Trường hợp 5: Lùi về 2 thư mục (ông) cũng sử dụng .. (../../index.html)
+     -->
+</body>
+</html>
